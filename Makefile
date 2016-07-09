@@ -12,3 +12,7 @@ clean:
 
 reset: clean
 	 rm -fR typings node_modules
+
+publish: all
+	 npm version $(v)
+	 npm publish
