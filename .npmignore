@@ -48,3 +48,7 @@ typings/*
 
 tsconfig.json
 index.ts
+
+# Build
+
+Makefile
