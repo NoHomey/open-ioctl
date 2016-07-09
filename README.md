@@ -87,5 +87,7 @@ console.log(fd);
 closeSync(fd);
 ```
 
+# Written in TypeScript and TypeScript Ready!
+
 
 
