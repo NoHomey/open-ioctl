@@ -1,4 +1,3 @@
-/// <reference path="typings/globals/node/index.d.ts" />
 import { open, openSync } from 'fs';
 import { O_NONBLOCK } from 'constants';
 import { join } from 'path';

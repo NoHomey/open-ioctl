@@ -4,9 +4,7 @@
   "description": "Opens device file in non-blocking ioctl mode only",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "npm install typings",
-    "install": "typings install"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
