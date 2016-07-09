@@ -87,6 +87,8 @@ console.log(fd);
 closeSync(fd);
 ```
 
+# For full working example code visit: (https://github.com/NoHomey/nodejs-ioctl-example)
+
 # Written in TypeScript and TypeScript Ready!
 
 
