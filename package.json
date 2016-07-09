@@ -1,0 +1,27 @@
+{
+  "name": "open-ioctl",
+  "version": "1.0.0",
+  "description": "Opens device file in non-blocking ioctl mode only",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "typings install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoHomey/open-ioctl.git"
+  },
+  "keywords": [
+    "ioctl"
+  ],
+  "author": "Ivo Stratev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NoHomey/open-ioctl/issues"
+  },
+  "homepage": "https://github.com/NoHomey/open-ioctl#readme",
+  "devDependencies": {
+    "typescript": "^1.8.10",
+    "typings": "^1.3.1"
+  }
+}
