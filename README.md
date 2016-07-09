@@ -12,7 +12,7 @@ $ npm install open-ioctl
 
 # Description
 
-Opens device file in non-blocking ioctl mode. TFile is opend with flags 3 | O_NONBLOCK.
+Opens device file in non-blocking ioctl mode. File is opend with flags 3 | O_NONBLOCK.
 
 Flag 3 means that only ioctl calls can be made for comunication with the device driver (remember read/write operations are expensive this is why open-ioctl was made in first place to make it easer for performance and command oriented device drivers.
 
@@ -25,7 +25,7 @@ Flag O_NONBLOCK means that ioctl calls will not put process and thread from whic
 O_NONBLOCK: flag is different compared to O_ASYNC (which is recomended to use only in rear an special cases, also you have no access to it node).
 O_NONBLOCK means that all syscalls respectivly ioctl calls will not put the process and thread from which they were made to sleep while the result is awaited. This is perfect for in node process call so no even loop block will occure.
 
-O_ASYNC can't be used on regular device files only terminals, sockets and pipes also it's not exported from the 'fs' module with a reason! For more information see: Posix open(2), open(3).
+O_ASYNC can't be used on regular device files only terminals, sockets and pipes also it's not exported in fs.constants from the 'fs' module with a reason! For more information see: Posix open(2), open(3).
 
 # Usage
 
