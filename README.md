@@ -22,7 +22,7 @@ Flag O_NONBLOCK means that ioctl calls will not put process and thread from whic
 
 ## O_NONBLOCK
 
-O_NONBLOCK: flag is different compared to O_ASYNC (which is recomended to use only in rear an special cases, also you have no access to it node).
+O_NONBLOCK: flag is different compared to O_ASYNC (which is recomended to use only in rear an special cases, also you have no access to it in node).
 O_NONBLOCK means that all syscalls respectivly ioctl calls will not put the process and thread from which they were made to sleep while the result is awaited. This is perfect for in node process call so no even loop block will occure.
 
 O_ASYNC can't be used on regular device files only terminals, sockets and pipes also it's not exported in fs.constants from the 'fs' module with a reason! For more information see: Posix open(2), open(3).
