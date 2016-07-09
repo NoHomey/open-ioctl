@@ -12,6 +12,8 @@ $ npm install open-ioctl
 
 # Description
 
+Opening ioctl only device drivers made easy.
+
 Opens device file in non-blocking ioctl mode. File is opend with flags 3 | O_NONBLOCK.
 
 Flag 3 means that only ioctl calls can be made for comunication with the device driver (remember read/write operations are expensive this is why open-ioctl was made in first place to make it easer for performance and command oriented device drivers).
