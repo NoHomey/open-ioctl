@@ -16,7 +16,7 @@ Opens device file in non-blocking ioctl mode. TFile is opend with flags 3 | O_NO
 
 Flag 3 means that only ioctl calls can be made for comunication with the device driver (remember read/write operations are expensive this is why open-ioctl was made in first place to make it easer for performance and command oriented device drivers.
 
-Flag O_NONBLOCK means that ioctl calls will not put process and thead from which they came to sleep.
+Flag O_NONBLOCK means that ioctl calls will not put process and thread from which they came to sleep.
 
 # Warning
 
