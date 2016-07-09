@@ -1,6 +1,6 @@
 {
   "name": "open-ioctl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Opens device file in non-blocking ioctl mode only",
   "main": "index.js",
   "scripts": {
