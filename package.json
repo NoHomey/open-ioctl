@@ -22,7 +22,7 @@
     "mode"
   ],
   "author": "Ivo Stratev",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/NoHomey/open-ioctl/issues"
   },
