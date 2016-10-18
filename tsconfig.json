@@ -8,8 +8,9 @@
         "noUnusedParameters": true,
         "noUnusedLocals": true
     },
-    "files": [
-        "index.ts"
+    "include": [
+        "index.ts",
+        "__tests__/*"
     ],
     "exclude": [
         "node_modules"

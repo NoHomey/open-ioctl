@@ -47,4 +47,8 @@ typings/*
 # Published
 
 index.js
-index.d.ts
+*.d.ts
+*.map
+coverage
+lcov.info
+.vscode

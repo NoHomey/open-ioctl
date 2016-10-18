@@ -1,0 +1,13 @@
+--- 
+engines: 
+  fixme: 
+    enabled: true
+exclude_paths: 
+  - LICENSE
+  - "*.md"
+  - "*.json"
+  - "*.js"
+  - __*/*
+ratings: 
+  paths: 
+    - index.*

@@ -4,7 +4,13 @@
   "description": "Opens device file in non-blocking ioctl mode only",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tsc && jest --verbose",
+    "jest-cov": "tsc --sourceMap -p . && jest --verbose --coverage  --testPathPattern __tests__/.+\\.spec\\.js",
+    "map-cov": "remap-istanbul -i ./coverage/coverage-final.json -t lcovonly -o ./lcov.info",
+    "report-cov": "codeclimate-test-reporter < ./lcov.info",
+    "coverage": "npm run jest-cov && npm run map-cov && npm run report-cov",
+    "npm": "tsc -d -p .",
+    "clean": "rm -f -R coverage ./*.map ./*.d.ts ./__tests__/*.d.ts ./__tests__/*.js ./lcov.info" 
   },
   "repository": {
     "type": "git",
@@ -22,7 +28,11 @@
   },
   "homepage": "https://github.com/NoHomey/open-ioctl#readme",
   "devDependencies": {
+    "@types/node": "^6.0.45",
+    "@types/jest": "^15.1.32",
     "typescript": "^2.0.3",
-    "@types/node": "6.0.45"
+    "jest": "^16.0.0",
+    "remap-istanbul": "^0.7.0",
+    "codeclimate-test-reporter": "^0.4.0"
   }
 }
