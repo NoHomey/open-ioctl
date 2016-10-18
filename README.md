@@ -2,6 +2,15 @@
 
 Opens device file in non-blocking ioctl mode only
 
+[![npm version](https://badge.fury.io/js/open-ioctl.svg)](https://badge.fury.io/js/open-ioctl)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/NoHomey/open-ioctl)
+[![Build Status](https://semaphoreci.com/api/v1/nohomey/open-ioctl/branches/master/badge.svg)](https://semaphoreci.com/nohomey/open-ioctl)
+[![Code Climate](https://codeclimate.com/github/NoHomey/open-ioctl/badges/gpa.svg)](https://codeclimate.com/github/NoHomey/open-ioctl)
+[![Test Coverage](https://codeclimate.com/github/NoHomey/open-ioctl/badges/coverage.svg)](https://codeclimate.com/github/NoHomey/open-ioctl/coverage)
+[![Issue Count](https://codeclimate.com/github/NoHomey/open-ioctl/badges/issue_count.svg)](https://codeclimate.com/github/NoHomey/open-ioctl)
+![TypeScript](https://img.shields.io/badge/%3C%20%2F%3E-TypeScript-blue.svg)
+![Typings](https://img.shields.io/badge/typings-%E2%9C%93-brightgreen.svg)
+
 # Installation
 
 Install with npm:
@@ -9,6 +18,8 @@ Install with npm:
 ```bash
 $ npm install open-ioctl
 ```
+
+[![NPM](https://nodei.co/npm/open-ioctl.png?downloads=true&stars=true)](https://nodei.co/npm/open-ioctl/)
 
 # Description
 
