@@ -1,6 +1,6 @@
 {
   "name": "open-ioctl",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Opens device file in non-blocking ioctl mode only",
   "typings": "index.d.ts",
   "main": "index.js",
@@ -11,7 +11,7 @@
     "report-cov": "codeclimate-test-reporter < ./lcov.info",
     "coverage": "npm run jest-cov && npm run map-cov && npm run report-cov",
     "npm": "tsc -d -p .",
-    "clean": "rm -f -R coverage ./*.map ./*.d.ts ./__tests__/*.d.ts ./__tests__/*.js ./lcov.info" 
+    "clean": "rm -f -R coverage ./*.map ./*.d.ts ./__tests__/*.d.ts ./__tests__/*.js ./lcov.info"
   },
   "repository": {
     "type": "git",
