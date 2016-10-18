@@ -11,7 +11,9 @@
     "url": "git+https://github.com/NoHomey/open-ioctl.git"
   },
   "keywords": [
-    "ioctl"
+    "ioctl",
+    "open",
+    "mode"
   ],
   "author": "Ivo Stratev",
   "license": "ISC",
@@ -20,7 +22,7 @@
   },
   "homepage": "https://github.com/NoHomey/open-ioctl#readme",
   "devDependencies": {
-    "typescript": "^1.8.10",
-    "typings": "^1.3.1"
+    "typescript": "^2.0.3",
+    "@types/node": "6.0.45"
   }
 }

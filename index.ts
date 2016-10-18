@@ -1,19 +1,16 @@
 import { open, openSync } from 'fs';
 import { O_NONBLOCK } from 'constants';
-import { join } from 'path';
 
-const flagsIoctl = 3 | O_NONBLOCK;
+export const flagsIoctl = 3 | O_NONBLOCK;
 
-function devPath(path: string): string {
-    return join('/dev', path);
+export function devPath(path: string): string {
+    return '/dev/' + path;
 }
 
-function openIoctl(path: string, callback: (err: NodeJS.ErrnoException, fd: number) => void): void {
+export function openIoctl(path: string, callback: (err: NodeJS.ErrnoException, fd: number) => void): void {
     open(devPath(path), flagsIoctl, callback);
 }
 
-function openIoctlSync(path: string): number {
+export function openIoctlSync(path: string): number {
     return openSync(devPath(path), flagsIoctl);
 }
-
-export { openIoctl, openIoctlSync };

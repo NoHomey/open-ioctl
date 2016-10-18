@@ -1,14 +1,15 @@
 {
     "compilerOptions": {
         "module": "commonjs",
-        "moduleResolution": "node",
-        "target": "es6",
+        "target": "es5",
         "noImplicitAny": true,
-        "sourceMap": false
+        "strictNullChecks": true,
+        "noImplicitThis": true,
+        "noUnusedParameters": true,
+        "noUnusedLocals": true
     },
     "files": [
-        "index.ts",
-        "typings/index.d.ts"
+        "index.ts"
     ],
     "exclude": [
         "node_modules"
