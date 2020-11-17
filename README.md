@@ -19,8 +19,6 @@ Install with npm:
 $ npm install open-ioctl
 ```
 
-[![NPM](https://nodei.co/npm/open-ioctl.png?downloads=true&stars=true)](https://nodei.co/npm/open-ioctl/)
-
 # Description
 
 Opening ioctl only device drivers made easy.
